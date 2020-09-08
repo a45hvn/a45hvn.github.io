@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* body {
+    font-family: "Work Sans", sans-serif;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "Oleo Script Swash Caps", cursive; */
+}
+a {
+    outline: none !important;
+}
+/*-----Header & Banner Starts-------*/
+.navbar-brand {
+    background-image: url(/);
+    /* font-family: "Oleo Script Swash Caps", cursive; */
+    color: #ffffff;
+    font-size: 26px;
+}
+.navbar-brand:hover {
+    color: #eb233c;
+}
+.navbar-toggle {
+    background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+    background-color: RGBA(0, 0, 0, 0.48);
+}
+.banner {
+    background-attachment: fixed;
+    background-color: white;
+    /* background-image: url(images/background.jpg); */
+    /* background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: black;
+    cursor: default;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.bg-overlay {
+    padding: 280px 0 220px;
+    /* background-color: rgba(13, 13, 14, 0.2); */
+}
+.banner-text h2 {
+    font-size: 50px;
+}
+.banner-text h2 span {
+    color: black;
+    font-weight: bold;
+}
+.banner-text p {
+    font-size: 30px;
+}
+
+.banner-button:hover {
+    background-color: #ccc;
+    text-decoration: none;
+    color: #000;
+}
+.mynav {
+    transition: all 0.8s ease-in;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+}
+.mynav li a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav > li > a:focus,
+.nav > li > a {
+    color: #e1dbdb;
+}
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li.active > a {
+    background-color: white;
+    color: black;
+    transform: scale(1.2, 1.2);
+    /* border-bottom: 3px solid rgb(255, 255, 255); */
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+/*-----Header & Banner Ends-------*/
+
+/*-----Features Starts-------*/
+.features {
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+}
+.icon-box {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    display: inline-box;
+    border: rgba(204, 204, 204, 0.18) 1px solid;
+    border-radius: 50%;
+    padding: 0px !important;
+}
+.icon-box i {
+    line-height: 70px;
+    font-size: 25px;
+    color: #eb233c;
+}
+.feature-text {
+    padding-left: 20px;
+}
+.feature-text h4 {
+    color: rgb(68, 51, 68);
+}
+
+/*-----Features Ends-------*/
+
+/*-----Portfolio or project Starts-------*/
+
+.portfolio {
+    float: left;
+    width: 100%;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+    width: 50%;
+    float: left;
+}
+.img-portfolio {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+}
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+.portfolio h3 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #eb233c;
+    display: inline-block;
+    line-height: 35px;
+}
+
+#project {
+    padding-top: 50px;
+}
+/*-----Portfolio or project Ends-------*/
+
+/*-----About Starts-------*/
+.about {
+    padding: 50px 0px;
+    width: 100%;
+    float: left;
+}
+.about-edu span {
+    font-size: 0.8em;
+}
+.about h3 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #eb233c;
+    display: inline-block;
+    line-height: 35px;
+}
+.about-text p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.counter-item h5 {
+    margin: 0px !important;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.timer {
+    color: #eb233c;
+    font-size: 50px;
+    font-weight: 200;
+}
+.block {
+    padding-left: 0px !important;
+}
+/*-----About Ends-------*/
+
+/*-----Skill Starts-------*/
+#skill {
+    padding-top: 50px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.skillImg {
+    width: 80px;
+    height: 80px;
+}
+/*-----Skill End-------*/
+
+/*-----Contact Starts-------*/
+.contact {
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.contact h3 {
+    margin-top: 0px;
+    /* margin-bottom: 50px; */
+    border-bottom: 2px solid #eb233c;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.email i {
+    color: #eb233c;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email {
+    padding-top: 15px;
+    font-size: 1.4em;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+footer span.copyright {
+    line-height: 40px;
+    text-transform: none;
+}
+footer ul.quicklinks {
+    margin-bottom: 0px;
+}
+footer ul.quicklinks a {
+    color: #eb233c;
+    line-height: 40px;
+    text-decoration: none;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    background-color: #222;
+    border-radius: 100%;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    outline: 0 none;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #eb233c;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0 none;
+}
+
+/*-----Contact Starts-------*/
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .bg-overlay {
+        padding: 180px 0 120px;
+    }
+    .banner-text h2 {
+        font-size: 35px;
+    }
+    nav > li > a:focus,
+    .nav > li > a:hover,
+    .nav > li > a:focus,
+    .nav > li.active > a {
+        border-bottom: none;
+    }
+    .features,
+    .about,
+    .portfolio,
+    .contact,
+    .testimonials {
+        padding: 50px 0px;
+    }
+}
